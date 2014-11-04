@@ -13,7 +13,7 @@ If you just want the armhf ruby build you can do the following commands to extra
 
 ```sh
 mkdir ruby-armhf
-ar p ruby_2.1.4_armhf.deb | tar xzf - -C ruby-armhf
+ar p ruby_2.1.4_armhf.deb data.tar.gz | tar xzf - -C ruby-armhf
 
 # install it straight to root
 # ar p ruby_2.1.4_armhf.deb | tar xzf - -C /
